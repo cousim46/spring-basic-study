@@ -18,7 +18,7 @@ class OrderServiceImplTest {
     void createOrder() throws Exception {
         //given
         Long memberId = 1L;
-        Member member = new Member(memberId, "memverA", Grade.VIP);
+        Member member = new Member(memberId, "memberA", Grade.VIP);
         //when
         memberService.join(member);
 
